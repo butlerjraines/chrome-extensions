@@ -1,0 +1,11 @@
+{
+  "name": "Tab Meta Tag Reader",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Reads the Meta Tags of webpage and print to console",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
